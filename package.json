@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "name": "identity-details-service",
+  "version": "1.0.0",
+  "description": "A template for kick starting a Cloudflare Workers project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
+  },
+  "author": "Marcin Koziej <marcin@cahoots.pl>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.0.3"
+  },
+  "dependencies": {
+    "@types/node": "^14.11.1",
+    "axios": "^0.20.0"
+  }
+}
