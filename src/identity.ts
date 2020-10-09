@@ -103,6 +103,7 @@ export async function getMember(by : GUIDOrEmail, api : APIConfig): Promise<stri
     throw new Error("Pass either guild or email to getMember()")
   }
 
+
   let ret = post<IdentityDetailsPayload,IdentityMemberDetails>(data, api.url)
 
   ret = ret.then((x) => {

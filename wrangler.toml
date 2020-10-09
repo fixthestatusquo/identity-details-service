@@ -1,7 +1,7 @@
-name = "identity-details-service"
+name = "identity-campax"
 type = "webpack"
 account_id = "d7bc04335007ac61d102c2fa74ecf198"
 workers_dev = true
 route = ""
 zone_id = ""
-vars = { IDENTITY_API_URL = "https://marcin-d7f61a5b.localhost.run" } 
+vars = { IDENTITY_API_URL = "https://identity.campax.org" } 
